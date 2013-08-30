@@ -1,0 +1,13 @@
+/*8. Create a console application that calculates and prints the square of the number 12345.*/
+ 
+ using System;  
+    
+ class PrintSquare  
+ {  
+     static void Main()  
+     {  
+         Console.WriteLine("The square of 12345 is:");  
+         Console.WriteLine(12345*12345);  
+         // or use Math function  Math.Pow(12345,2)
+     }  
+ } 
